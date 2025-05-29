@@ -59,7 +59,7 @@ We simulate an Ecommerce system with 3 tables:
 
 ## Example Queries
 
-### 1. Total Sales Per Product
+ 1. Total Sales Per Product
 ```sql
 SELECT p.name, SUM(o.quantity * p.price) AS total_sales
 FROM orders o
@@ -119,7 +119,7 @@ Run analysis queries from:
 ```
 
 ## Learning Outcome
-Strong understanding of SQL syntax and logic
-Practical knowledge of analyzing structured data
-Insights into performance tuning using indexes
-Ability to create views and subqueries for reusable logic
+1. Strong understanding of SQL syntax and logic
+2. Practical knowledge of analyzing structured data
+3. Insights into performance tuning using indexes
+4. Ability to create views and subqueries for reusable logic
