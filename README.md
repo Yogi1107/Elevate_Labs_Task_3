@@ -108,14 +108,9 @@ cd sql-ecommerce-analysis
 ```
 Open the .sql files in your SQL client (MySQL, PostgreSQL, SQLite).
 
-Execute the schema and insert script:
+Execute the schema and insert script, Run analysis queries from:
 ```sql
--- ecommerce_schema.sql
-```
-
-Run analysis queries from:
-```sql
--- ecommerce_queries.sql
+-- ecommerce_analysis.sql
 ```
 
 ## Learning Outcome
