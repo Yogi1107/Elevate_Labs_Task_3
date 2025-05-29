@@ -18,7 +18,7 @@ To analyze and extract insights from an Ecommerce dataset using core SQL feature
 
 ---
 
-## 🗃Dataset Overview
+## Dataset Overview
 
 We simulate an Ecommerce system with 3 tables:
 
@@ -86,7 +86,7 @@ WHERE customer_id IN (
 );
 ```
 
-# Optimization
+## Optimization
 Indexes Created:
 ```sql
 CREATE INDEX idx_customer_id ON orders(customer_id);
@@ -118,7 +118,7 @@ Run analysis queries from:
 -- ecommerce_queries.sql
 ```
 
-##Learning Outcome
+## Learning Outcome
 Strong understanding of SQL syntax and logic
 Practical knowledge of analyzing structured data
 Insights into performance tuning using indexes
